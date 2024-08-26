@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React_Testing/static/css/main.d2ec2f37.css",
-    "main.js": "/React_Testing/static/js/main.eff4e4d4.js",
-    "static/js/453.ed3810f9.chunk.js": "/React_Testing/static/js/453.ed3810f9.chunk.js",
-    "static/media/savant-discovery.png": "/React_Testing/static/media/savant-discovery.0cccf533dcf5fa241ab7.png",
-    "static/media/bottom-image.png": "/React_Testing/static/media/bottom-image.4a860a8dc592f287376d.png",
-    "static/media/savant-engage.png": "/React_Testing/static/media/savant-engage.e51c11d4772e1a8d76d0.png",
-    "static/media/top-image.svg": "/React_Testing/static/media/top-image.fe886ee324afaeaa9b6096b34e36f29e.svg",
-    "index.html": "/React_Testing/index.html",
-    "main.d2ec2f37.css.map": "/React_Testing/static/css/main.d2ec2f37.css.map",
-    "main.eff4e4d4.js.map": "/React_Testing/static/js/main.eff4e4d4.js.map",
-    "453.ed3810f9.chunk.js.map": "/React_Testing/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/Savant-Education-Home-Page/static/css/main.d2ec2f37.css",
+    "main.js": "/Savant-Education-Home-Page/static/js/main.9d18871a.js",
+    "static/js/453.ed3810f9.chunk.js": "/Savant-Education-Home-Page/static/js/453.ed3810f9.chunk.js",
+    "static/media/savant-discovery.png": "/Savant-Education-Home-Page/static/media/savant-discovery.0cccf533dcf5fa241ab7.png",
+    "static/media/bottom-image.png": "/Savant-Education-Home-Page/static/media/bottom-image.4a860a8dc592f287376d.png",
+    "static/media/savant-engage.png": "/Savant-Education-Home-Page/static/media/savant-engage.e51c11d4772e1a8d76d0.png",
+    "static/media/top-image.svg": "/Savant-Education-Home-Page/static/media/top-image.fe886ee324afaeaa9b6096b34e36f29e.svg",
+    "index.html": "/Savant-Education-Home-Page/index.html",
+    "main.d2ec2f37.css.map": "/Savant-Education-Home-Page/static/css/main.d2ec2f37.css.map",
+    "main.9d18871a.js.map": "/Savant-Education-Home-Page/static/js/main.9d18871a.js.map",
+    "453.ed3810f9.chunk.js.map": "/Savant-Education-Home-Page/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2ec2f37.css",
-    "static/js/main.eff4e4d4.js"
+    "static/js/main.9d18871a.js"
   ]
 }
