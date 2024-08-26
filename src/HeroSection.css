@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center columns vertically */
+  padding: 20px;
+  background-color: #ffffff; /* Set background color to white */
+}
+
+.left-column, .right-column {
+  flex: 1; /* Make both columns take up equal space */
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.left-column {
+  margin-right: 5px;
+  text-align: left; /* Ensure left alignment */
+}
+
+.left-column h1 {
+  font-family: 'Kanit', sans-serif;
+  color: #49d49d;
+  font-size: 72px; /* Set the hero text to 72px */
+  line-height: 1.2;
+}
+
+.left-column .highlight {
+  display: block; /* Place "Inner Genius" below "Unleash Your" */
+  color: #ED6A5A;
+}
+
+.left-column .description {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400; /* Ensure regular font weight */
+  margin-top: 10px;
+  color: #333;
+  text-align: left; /* Ensure left alignment */
+  font-size: 24px; /* Set the description text to 24px */
+}
+
+.start-button {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700; /* Set font weight to 700 */
+  font-size: 24px; /* Set font size to 24px */
+  background-color: #49d49d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px auto 0 auto; /* Center the button horizontally */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 40px; /* Apply border radius of 40px */
+}
+
+.start-button:hover {
+  background-color: #ED6A5A;
+}
+
+.right-column img {
+  width: 100%; /* Ensure images take full width of the container */
+  object-fit: contain; /* Ensure images are fully visible without being cut off */
+}
+
+.right-column .top-image {
+  height: 150px; /* Reduce the height of the top image by 50% */
+  margin-bottom: 10px; /* Add some space between the images */
+}
+
+.right-column .bottom-image {
+  height: auto; /* Ensure the bottom image is shown fully */
+  max-height: 300px; /* Set a maximum height to maintain aspect ratio */
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align elements horizontally */
+    justify-content: center; /* Center-align elements vertically */
+    height: 100%; /* Ensure the column takes full height */
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column; /* Stack columns vertically */
+  }
+
+  .left-column {
+    width: 60%; /* Set a specific width for the left column */
+    margin-right: 0; /* Remove right margin when stacked */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+    text-align: center; /* Center-align text for tablet */
+  }
+
+  .left-column h1 {
+    font-size: 48px; /* Reduce hero text size for smaller screens */
+  }
+
+  .left-column .description {
+    font-size: 18px; /* Reduce description text size for smaller screens */
+  }
+
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align elements horizontally */
+    justify-content: center; /* Center-align elements vertically */
+    height: 100%; /* Ensure the column takes full height */
+  }
+
+  .right-column .top-image {
+    height: 100px; /* Adjust height for smaller screens */
+  }
+
+  .right-column .bottom-image {
+    width: 60%; /* Set the width of the bottom image to match the left column */
+    height: auto; /* Ensure the bottom image is shown fully */
+    max-height: 200px; /* Adjust maximum height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .left-column h1 {
+    font-size: 36px; /* Further reduce hero text size for very small screens */
+  }
+
+  .left-column .description {
+    font-size: 16px; /* Further reduce description text size for very small screens */
+  }
+}

@@ -1,0 +1,66 @@
+/* EngageExploreExcel.css */
+
+/* Import Kanit font */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+.engage-explore-excel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.engage-explore-excel-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px; /* Ensure max-width is 1000px */
+  column-gap: 40px; /* Add space between columns */
+}
+
+.engage-explore-excel-left, .engage-explore-excel-right {
+  flex: 1;
+}
+
+.engage-explore-excel-image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .engage-explore-excel-content {
+    flex-direction: column; /* Stack the elements vertically */
+  }
+
+  .engage-explore-excel-left {
+    order: 2; /* Move the left content below the image */
+  }
+
+  .engage-explore-excel-right {
+    order: 1; /* Move the right content above the left content */
+  }
+
+  .engage-explore-excel-image {
+    order: 0; /* Ensure the image is at the top */
+  }
+}
+
+.engage-explore-excel-left, .engage-explore-excel-right {
+  width: 100%;
+  text-align: center;
+}
+
+.engage-explore-excel-right h1 {
+  font-size: 36px;
+  color: #49d49d; /* Set header text color */
+  font-family: 'Kanit', sans-serif; /* Set Kanit font */
+}
+
+.engage-explore-excel-right .engage-explore-excel-description {
+  font-size: 18px;
+  font-family: 'Kanit', sans-serif; /* Set Kanit font for description */
+}

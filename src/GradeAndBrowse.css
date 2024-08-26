@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
+.grade-and-browse {
+  text-align: center;
+  padding: 20px;
+  background-color: #F8F8F8; /* Set background fill color */
+}
+
+.custom-button {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700; /* Set font weight to 700 */
+  font-size: 16px; /* Set font size to 16px */
+  background-color: #49d49d; /* Set button fill color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 40px; /* Apply border radius of 40px */
+}
+
+.custom-button:hover {
+  background-color: #ED6A5A; /* Change color on hover */
+}
