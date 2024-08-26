@@ -1,0 +1,64 @@
+/* DrivenByDiscovery.css */
+
+/* Import Kanit font */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+.driven-by-discovery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.driven-by-discovery-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  column-gap: 40px;
+}
+
+.driven-by-discovery-left, .driven-by-discovery-right {
+  flex: 1;
+}
+
+.driven-by-discovery-image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .driven-by-discovery-content {
+    flex-direction: column;
+  }
+
+  .driven-by-discovery-left {
+    order: 1; /* Ensure header and description are above the image */
+  }
+
+  .driven-by-discovery-right {
+    order: 2; /* Ensure image is below the header and description */
+  }
+
+  .driven-by-discovery-image {
+    order: 3;
+  }
+}
+
+.driven-by-discovery-left, .driven-by-discovery-right {
+  width: 100%;
+  text-align: center;
+}
+
+.driven-by-discovery-left h1 {
+  font-size: 36px;
+  color: #49d49d;
+  font-family: 'Kanit', sans-serif;
+}
+
+.driven-by-discovery-description {
+  font-size: 18px;
+  font-family: 'Kanit', sans-serif;
+}

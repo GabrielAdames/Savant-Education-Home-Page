@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+/* Common styles for modal content */
+.ReactModal__Content {
+  font-family: 'Kanit', sans-serif;
+  border: 4px solid #ed6a5a !important; /* Border color and width */
+  padding: 20px;
+  border-radius: 20px !important; /* Reduced border radius for a cleaner look */
+  text-align: center; /* Center align text */
+  background-color: #ffffff !important; /* Background color */
+  color: #000000; /* Text color */
+}
+
+.ReactModal__Content h2 {
+  font-family: 'Kanit', sans-serif;
+  color: #49d49d; /* Header color */
+  font-weight: 700; /* Bold font weight */
+  font-size: 2em; /* Make the header text larger */
+  margin-bottom: 40px;
+}
+
+.ReactModal__Content p {
+  font-family: 'Kanit', sans-serif;
+  color: #000000; /* Default paragraph color */
+  font-weight: 400; /* Regular font weight */
+  margin-bottom: 20px;
+}
+
+/* Styles for Log In button */
+.login-button {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  background-color: #49d49d;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px; /* Reduced border radius for buttons */
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #ed6a5a; /* Change color on hover */
+  color: #fff;
+}
+
+/* Styles for Start Your Journey button */
+.start-journey-button {
+  width: 80%;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  background-color: #49d49d;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px; /* Reduced border radius for buttons */
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.start-journey-button:hover {
+  background-color: #ed6a5a; /* Change color on hover */
+  color: #fff;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Add gap between form elements */
+}
+
+.form-group {
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px; /* Increased padding for inputs */
+  border-radius: 5px; /* Added border radius for inputs */
+  border: 1px solid #ccc; /* Added border for inputs */
+  box-sizing: border-box;
+}
+
+.modal-button {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  background-color: #49d49d;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 20px; /* Reduced border radius for buttons */
+}
+
+.modal-footer {
+  margin-top: 20px;
+}
+
+.modal-close-button {
+    width: 80%;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    background-color: #49d49d;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px; /* Reduced border radius for buttons */
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Add a specific class for the Join Savant modal */
+.join-savant-modal .ReactModal__Content {
+    background-color: transparent !important; /* Remove background color */
+    color: #ed6a5a; /* Set text color to match the border */
+  }
+
+  .custom-modal-header {
+    color: #49d49d;
+  }
